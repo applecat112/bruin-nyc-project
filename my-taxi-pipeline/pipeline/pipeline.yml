@@ -9,6 +9,9 @@
 # TODO: Set a pipeline name (string). This shows up in logs + `BRUIN_PIPELINE` for Python assets.
 name: nyc_taxi
 
+execution:
+  concurrency: 1
+
 # TODO: Pick a schedule ("daily", "hourly", "weekly", "monthly") or a cron string.
 schedule: daily
 
@@ -36,3 +39,4 @@ variables:
 #   other_string_var: (optional) Add your own variable and use it in both Python and SQL assets.
 #     type: string
 #     default: "my_value"
+
