@@ -2,7 +2,7 @@
 
 # TODO: Set the asset name (recommended pattern: schema.asset_name).
 # - Convention in this module: use an `ingestion.` schema for raw ingestion tables.
-name: TODO_SET_ASSET_NAME
+name: ingestion.trips
 
 # TODO: Set the asset type.
 # Docs: https://getbruin.com/docs/bruin/assets/python
