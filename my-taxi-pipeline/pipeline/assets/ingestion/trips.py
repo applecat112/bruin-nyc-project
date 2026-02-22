@@ -81,7 +81,7 @@ def materialize():
     # Fetch parquet files from:
     # https://d37ci6vzurychx.cloudfront.net/trip-data/{taxi_type}_tripdata_{year}-{month}.parquet
 
-    return final_dataframe
+    return pd.DataFrame()
     # return final_dataframe
 
 
