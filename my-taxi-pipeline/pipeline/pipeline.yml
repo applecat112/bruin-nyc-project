@@ -11,6 +11,7 @@ name: nyc_taxi
 
 execution:
   concurrency: 1
+  strategy: sequential
 
 # TODO: Pick a schedule ("daily", "hourly", "weekly", "monthly") or a cron string.
 schedule: daily
