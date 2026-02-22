@@ -40,3 +40,9 @@ variables:
 #     type: string
 #     default: "my_value"
 
+assets:
+  - name: ingestion.payment_lookup
+
+  - name: ingestion.trips
+    depends_on:
+      - ingestion.payment_lookup
