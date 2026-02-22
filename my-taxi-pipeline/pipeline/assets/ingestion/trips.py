@@ -2,6 +2,7 @@
 name: ingestion.trips
 type: python
 image: python:3.11
+connection: duckdb-default
 
 materialization:
   type: table
@@ -28,5 +29,5 @@ def materialize():
     # Generate list of months between start and end dates
     # Fetch parquet files from:
     # https://d37ci6vzurychx.cloudfront.net/trip-data/{taxi_type}_tripdata_{year}-{month}.parquet
-    final_dataframe = pd.DataFrame()   
+
     return final_dataframe
